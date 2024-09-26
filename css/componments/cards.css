@@ -1,0 +1,32 @@
+.cards{
+    flex-wrap: wrap;
+    display: flex;
+    background-color: skyblue;
+    /* margin: 10px auto; */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    padding: 30px;
+    text-align: center;
+    background-size: cover;
+}
+.card{
+    background-color:darkgoldenrod;
+    margin: 30px;
+    border: 1mm;
+    border-style:solid;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+	padding: 15px;
+    background-position: center;
+    /* text-align: right; */
+}
+.card:hover{
+    background-color:lightgrey;
+}
+.card img{
+    border-radius: 6px;
+    width: 225px;
+    height: auto; /* maintain aspect ratio */
+    display: block; /* remove extra space below image */
+}
